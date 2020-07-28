@@ -1,0 +1,25 @@
+.main-content {
+    --ion-background-color:#012650;
+    text-align: center;
+}
+
+ion-item {   
+    margin: 5%;
+    --border-color: white; 
+    --highlight-color-invalid: red; 
+    --highlight-color-valid: white; 
+}
+
+ion-input,
+ion-label{
+    color: #ffffff;
+    --placeholder-color: #ffffff;
+    font-family: "Arial", sans-serif !important;
+}
+
+ion-button{
+    margin:10%;
+    --ion-background-color: #59abda !important;
+}
+
+

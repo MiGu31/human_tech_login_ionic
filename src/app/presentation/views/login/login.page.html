@@ -1,0 +1,16 @@
+<ion-content class="main-content">
+  <img src="assets/images/blizzard_background.jpg" class="image_login" alt="image_login">
+
+    <ion-item>
+      <ion-label position="floating" color="light">Email</ion-label>
+      <ion-input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" [(ngModel)]="user.email" clear-input="true"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" color="light">Password</ion-label>
+      <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" [disabled]="!user.email || !user.password" (click)="login()">Login</ion-button>
+
+</ion-content>

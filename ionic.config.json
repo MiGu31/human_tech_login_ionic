@@ -1,0 +1,7 @@
+{
+  "name": "human_tech_login_ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
